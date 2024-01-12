@@ -1,0 +1,74 @@
+.Skils{
+    height: 80%;
+    width: 60%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lang{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.Linguagens{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.linguagem{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    list-style: none;
+    width: 100%;
+}
+.linguagem h5{
+    font-size: 16px;
+}
+
+.porcentagem{
+    display: flex;
+    border-radius: 3px;
+    gap: 1px;
+    padding-left: 1px;
+    justify-content:left;
+    align-items:center;
+    width: 188px;
+    height: 21px;
+    border: 1px solid #1c1c1c;
+}
+.porcentagem i{
+    margin: auto 0;
+    color: #f20707;
+}
+
+.subskils{
+    display: flex;
+    flex-direction: column;
+    margin: 2px auto;
+    width: 90%;
+    color: #fff;
+}
+.subskils ul{
+    margin: auto;
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.num{
+    float: right;
+}
+
+.subskils h2{
+    font-size: 22px;
+}
