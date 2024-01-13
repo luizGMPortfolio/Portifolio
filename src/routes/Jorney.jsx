@@ -1,12 +1,11 @@
-
-import { useState } from "react";
-import Title from '../components/Title';
-import { motion } from 'framer-motion';
-
+import './Jorney.css'
+import { useState } from "react"
+import Title from '../components/Title'
+import { motion } from 'framer-motion'
 
 
 function Jorney() {
-  
+
   const [displayB1, setDisplayB1] = useState('flex')
   const [displayB2, setDisplayB2] = useState('none')
   const [displayB3, setDisplayB3] = useState('none')
