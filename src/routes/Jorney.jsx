@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import './Jorney.css'
+import { useState, useEffect } from "react";
 import Title from '../components/Title'
 import { motion } from 'framer-motion'
 
@@ -23,7 +23,6 @@ function Study() {
 
   const [displayS4, setDisplayS4] = useState('none')
   const [displayS5, setDisplayS5] = useState('')
-  const [displayS6, setDisplayS6] = useState('')
 
   const [rotate4, setRotate4] = useState('rotate(-270deg)')
   const [rotate5, setRotate5] = useState('')
