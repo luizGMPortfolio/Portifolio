@@ -1,5 +1,5 @@
 import './Jorney.css'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Title from '../components/Title'
 import { motion } from 'framer-motion'
 
@@ -134,10 +134,6 @@ function Study() {
     }
   }
 
-  useEffect(() => {
-    document.querySelector('html').style.overflowY = "hidden";
-  }, [])
-
   return (
     <>
       <motion.div className='slides'
@@ -174,7 +170,7 @@ function Study() {
 
                 <span style={{ color: '#df62ab', fontSize: '18px' }}>Ano: <span style={{ color: '#ea862a', fontSize: '15px' }}>2022-</span></span>
 
-                <p style={{ color: '#eacdcd', fontSize: 14}}>Mudei para o curso de Ciência da Computação em 2022, buscando um conhecimento mais abrangente em comparação com o curso de Tecnólogo. Estou cursando até o presente momento em 2024.</p>
+                <p style={{ color: '#eacdcd', fontSize: 14 }}>Mudei para o curso de Ciência da Computação em 2022, buscando um conhecimento mais abrangente em comparação com o curso de Tecnólogo. Estou cursando até o presente momento em 2024.</p>
               </div>
 
 
@@ -215,7 +211,7 @@ function Study() {
 
                 <span style={{ color: '#df62ab', fontSize: '18px' }}>Ano: <span style={{ color: '#ea862a', fontSize: '15px' }}>2016-2017</span></span>
 
-                <p style={{ color: '#eacdcd', fontSize: 14}}>Curso focado na fabricação de peças e manutenção de máquinas industriais, com ênfase em atividades práticas realizadas em ambientes industriais reais. Durante o curso, foi desenvolvido um entendimento abrangente sobre o funcionamento de fábricas, normas de segurança do trabalho, responsabilidade profissional e a importância do trabalho em equipe.</p>
+                <p style={{ color: '#eacdcd', fontSize: 14 }}>Curso focado na fabricação de peças e manutenção de máquinas industriais, com ênfase em atividades práticas realizadas em ambientes industriais reais. Durante o curso, foi desenvolvido um entendimento abrangente sobre o funcionamento de fábricas, normas de segurança do trabalho, responsabilidade profissional e a importância do trabalho em equipe.</p>
               </div>
             </div>
             <Title chaves={'}'} color={'#696383'} />
@@ -244,7 +240,7 @@ function Study() {
 
                 <span style={{ color: '#df62ab', fontSize: '18px' }}>periodo: <span style={{ color: '#ea862a', fontSize: '15px' }}>2018-2023</span></span>
 
-                <p style={{ color: '#eacdcd' , fontSize: 14}}>Meu primeiro trabalho foi como sócio em uma loja de móveis, onde eu realizava vendas e participava da administração. Além disso, desenvolvi um site para a loja, proporcionando uma nova fonte de receita para o negócio.</p>
+                <p style={{ color: '#eacdcd', fontSize: 14 }}>Meu primeiro trabalho foi como sócio em uma loja de móveis, onde eu realizava vendas e participava da administração. Além disso, desenvolvi um site para a loja, proporcionando uma nova fonte de receita para o negócio.</p>
               </div>
 
               <li>
@@ -260,7 +256,7 @@ function Study() {
 
                 <span style={{ color: '#df62ab', fontSize: '18px' }}>Periodo: <span style={{ color: '#ea862a', fontSize: '15px' }}>2022-2024</span></span>
 
-                <p style={{ color: '#eacdcd' , fontSize: 14}}>Trabalho como freelancer no desenvolvimento de projetos para pessoas físicas e jurídicas. Meus projetos abrangem desde portfólios simples até APIs mais complexas. Estou disponível para atender uma variedade de necessidades de desenvolvimento, adaptando-me às demandas específicas de cada cliente.</p>
+                <p style={{ color: '#eacdcd', fontSize: 14 }}>Trabalho como freelancer no desenvolvimento de projetos para pessoas físicas e jurídicas. Meus projetos abrangem desde portfólios simples até APIs mais complexas. Estou disponível para atender uma variedade de necessidades de desenvolvimento, adaptando-me às demandas específicas de cada cliente.</p>
               </div>
 
             </div>
