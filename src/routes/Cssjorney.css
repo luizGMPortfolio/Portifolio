@@ -30,6 +30,7 @@
 }
 .seta{
     border: none;
+    cursor: pointer;
     color: #fff;
     background-color: transparent;
     width: 20%;
