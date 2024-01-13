@@ -1,4 +1,4 @@
-
+import './Cssjorney.css'
 import Title from '../components/Title'
 
 import { useState } from "react"
