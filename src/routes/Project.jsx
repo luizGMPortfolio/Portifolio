@@ -1,10 +1,11 @@
 import './Project.css'
-import { useEffect, useState } from 'react';
+
 import Title from '../components/Title'
 import Repositorios from "../components/Respositorio";
 import ItemRepositorio from "../components/ItemRepositorio";
 import logo from '../assets/logolgm (1).png'
 
+import { useEffect, useState } from 'react';
 import { delay, motion } from 'framer-motion'
 
 function Project() {
