@@ -1,7 +1,7 @@
-import './Jorney.css'
+import './jorney.css';
 import { useState } from "react";
-import Title from '../components/Title'
-import { motion } from 'framer-motion'
+import Title from '../components/Title';
+import { motion } from 'framer-motion';
 
 
 
