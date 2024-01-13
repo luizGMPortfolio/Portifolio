@@ -23,7 +23,7 @@ const About = () => {
                 <div className='about'>
 
                     <motion.div className='container-img'
-                        initial={{ translateX: 260, translateY: 30, height: 500, zIndex: 3 }}
+                        initial={{ translateX: 280, translateY: 30, height: 500, zIndex: 3 }}
                         animate={{ translateX: 0 }}
                         transition={{ duration: 0.5, delay: 2 }}
                     >

@@ -38,7 +38,7 @@ function Skils() {
               animate={{opacity: 1}}
               transition={{delay: 1}}
             >
-              <Title title={'Abilidades {'} />
+              <Title title={'Habilidades {'} />
             </motion.div>
 
             <motion.div className='container'
