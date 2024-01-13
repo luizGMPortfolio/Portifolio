@@ -141,7 +141,7 @@ function Jorney() {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ delay: 0.5 }}
         exit={{ opacity: 0, translateX: -1000 }} >
-        <motion.div className='Jorney'
+        <motion.div className='jorney'
           initial={{ borderRadius: "50%", scale: 0.2, width: 600, rotate: 180 }}
           animate={{ borderRadius: "2%", scale: 1, width: 900, rotate: 0 }}
           transition={{ delay: 0.8 }}
