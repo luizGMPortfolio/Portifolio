@@ -3,7 +3,7 @@ import Title from '../components/Title'
 
 import { motion } from 'framer-motion'
 import { useEffect } from 'react'
-let img = 'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXNwYSVDMyVBN298ZW58MHx8MHx8fDA%3D'
+import img from '../assets/eu.jpeg'
 
 const About = () => {
 
@@ -18,7 +18,7 @@ const About = () => {
                 initial={{ opacity: 0, translateY: 1000 }}
                 animate={{ opacity: 1, translateY: 0 }}
                 exit={{ translateX: -1000, opacity: 0 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 1, delay: 0.2}}
             >
                 <div className='about'>
 
