@@ -6,7 +6,6 @@
     height: 90%;
     overflow-y: hidden;
 }
-
 .container-img{
     display: flex;
     justify-content: center;
@@ -30,13 +29,11 @@
     color: #fff;
     background-color: black;
 }
-
 .c-text{
     height: 80%;
     width: 90%;
     text-align:justify;
 }
-
 .atributos{
     font-size: 18px;
     list-style: none;
@@ -53,6 +50,59 @@
 
 }
 
+/*reposive*/
+.container-responsive{
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.r-container-img{
+    display: flex;
+    height: 70%;
+    justify-content: center;
+}
+.r-container-img div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.r-container-img img{
+    width: 78%;
+    height: 330px;
+    position: absolute;
+    bottom: 210px;
+    border-radius: 10px;
+    animation: voando 6s infinite;
+
+}
+.r-container-text{
+    height: 30%;
+    padding: 0 20px;
+}
+.r-container-text ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+}
+.r-container-text ul li{
+    width: 50%;
+    list-style: none;
+}
+.r-container-text ul span{
+    color: #ea862a;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.r-container-text ul p{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
 @keyframes voando{
    0%{
 
@@ -62,4 +112,25 @@
     }
 
 
+}
+
+
+
+@media (max-width: 768px) {
+    .about{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .container-img{
+        display: none;
+    }
+    .container-text{
+        display: none;
+    }
+    .container-responsive{
+        display: flex;
+        width: 100%;
+        height: 470px;
+        background-color: black;
+    }
 }

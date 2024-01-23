@@ -96,3 +96,29 @@
 ::selection {
 	background: black;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+	.logo{
+		margin: auto;
+	}
+	.logo-titulo{
+		width: 35%;
+	}
+	.seta-direita{
+		margin-top: 30%;
+	}
+	.seta-esquerda{
+		margin-top: 10px;
+	}
+	.line{
+		left: 50%;
+		height: 120px;
+	}
+}

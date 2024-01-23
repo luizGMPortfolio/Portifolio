@@ -1,10 +1,9 @@
-.Skils{
+.Skills{
     height: 80%;
     width: 60%;
     background-color: black;
     border-radius: 20px;
 }
-
 .container{
     display: flex;
     flex-direction: column;
@@ -16,7 +15,6 @@
     gap: 15px;
     margin: auto;
 }
-
 .Linguagens{
     color: #fff;
     display: flex;
@@ -24,7 +22,6 @@
     gap: 15px;
     width: 50%;
 }
-
 .linguagem{
     display: flex;
     gap: 10px;
@@ -40,11 +37,9 @@
 .linguagem:hover{
     scale: 1.1;
 }
-
 .linguagem h5{
     font-size: 16px;
 }
-
 .porcentagem{
     display: flex;
     border-radius: 3px;
@@ -60,7 +55,6 @@
     margin: auto 0;
     color: #f20707;
 }
-
 .subskils{
     display: flex;
     flex-direction: column;
@@ -74,11 +68,77 @@
     gap: 35px;
     font-size: 20px;
 }
-
 .num{
     float: right;
 }
-
 .subskils h2{
     font-size: 22px;
+}
+
+
+
+/*responsive*/
+.responsive-skills{
+    display: none;
+}
+.r-container{
+    height: 100%;
+    display: flex;
+}
+.r-c-lang{
+    width: 100%;
+    height: 100%;
+    gap: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.r-c-lang li{
+    width: 49%;
+    display: flex;
+    height: 20%;
+    color: #fff;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+}
+.r-c-l-img{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-c-lang li img{
+    scale: 0.5;
+}
+.r-c-l-porcent{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.r-c-l-porcent .porcentagem{
+    width: 118px;
+    height: 15px;
+    display: flex;
+    gap: 1px;
+}
+
+
+
+
+
+
+/* APLICAÇÃO MEDIA QUERIES */
+@media (max-width: 768px) {
+    .Skills{
+        display: none;
+    }
+    .responsive-skills{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        border-radius: 10px;
+        height: 470px;
+        background-color: black;
+    }
 }

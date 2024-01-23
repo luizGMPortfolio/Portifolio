@@ -18,7 +18,7 @@ const About = () => {
                 initial={{ opacity: 0, translateY: 1000 }}
                 animate={{ opacity: 1, translateY: 0 }}
                 exit={{ translateX: -1000, opacity: 0 }}
-                transition={{ duration: 1, delay: 0.2}}
+                transition={{ duration: 1, delay: 0.2 }}
             >
                 <div className='about'>
 
@@ -41,7 +41,7 @@ const About = () => {
                     >
 
                         <Title title='Desenvolvedor Web    {' />
-                        
+
                         <motion.ul className='atributos'
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -61,6 +61,22 @@ const About = () => {
                         </motion.ul>
                         <Title title={'}'} />
                     </motion.div>
+
+                    <div className='container-responsive'>
+                        <div className='r-container-img'>
+                            <div>
+                                <img src={img} alt="" />
+                            </div>
+                        </div>
+                        <div className='r-container-text'>
+                            <ul>
+                                <li><span>Nome:</span> <p>Luiz Gustavo;</p></li>
+                                <li><span>Nacimento:</span> <p>04/12/2000;</p></li>
+                                <li><span>Estudo:</span> <p>Ciencia da computação;</p></li>
+                                <li><span>Area:</span> <p>Desenvolver Front-end;</p></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </motion.div>
         </>
