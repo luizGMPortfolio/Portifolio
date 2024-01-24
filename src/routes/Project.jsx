@@ -74,7 +74,7 @@ function Project() {
 
   return (
     <>
-      <motion.div className='slides'
+      <motion.div className='slides p'
         initial={{ opacity: 0, translateX: 1000 }}
         animate={{ opacity: 1, translateX: 0 }}
         exit={{ opacity: 0, translateX: -1000 }}
@@ -196,7 +196,7 @@ function Project() {
 
         <div className='responsive-project'>
           <Title title={'Projetos '} chaves={'{'} />
-          <motion.div
+          <div
             initial={{ width: 0, opacity: 0 }}
             animate={{ width: "100%", opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.5 }}
@@ -206,9 +206,9 @@ function Project() {
               Já trabalhei em projetos de front-end, back-end, full-stack, mobile e para desktop.
               Além disso, criei um site próprio para minha empresa pessoal. Todos os meus repositórios estão disponíveis <a href="#rs-titulo">AQUI</a>
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div className='r-icones'
+          <div className='r-icones'
             initial={{ opacity: 0, translateY: 1000 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 1.8, duration: 0.2 }}
@@ -227,7 +227,7 @@ function Project() {
               <p style={{ fontSize: '12px' }}>
                 Acesse minha pagina do linkedin para conferir meu perfil profissional</p>
             </a>
-          </motion.div>
+          </div>
 
           <div className='r-resp-sup'>
             <div className='r-rs-titulo' id='rs-titulo'>

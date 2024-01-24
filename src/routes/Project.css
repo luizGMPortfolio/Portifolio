@@ -509,9 +509,13 @@ a{
         color: #fff;
         font-size: 15px;
     }
+    .p{
+        
+    }
     .responsive-project{
         display: flex;
-        position: relative;
+        position:absolute;
+        top: 18vh;
     }
 
 }
