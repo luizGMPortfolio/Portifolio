@@ -86,7 +86,7 @@ export default function ItemRepositorio(props) {
             <div className='Irepositorio'>
                 <div className="repos-titulo">
                     <a href={props.url} target="_blank">
-                        <h5 style={{ fontSize: '18px' }}>{props.nameProject}</h5>
+                        <h5 className="rs-titulo">{props.nameProject}</h5>
                     </a>
                 </div>
                 <div className="repos-linguagem" style={{ backgroundColor: `${backgroundSwitch()}` }}>
@@ -106,7 +106,7 @@ export default function ItemRepositorio(props) {
                 </div>
                 
             </div>
-            <div className="desc" style={{ width: '500px', height: '110px', display: `${descrição}`, backgroundColor: '#050505', borderRadius: '10px', position: 'absolute', zIndex: '10', marginTop: '5px'}}>
+            <div className="desc" style={{display: `${descrição}`, backgroundColor: '#050505', borderRadius: '10px', position: 'absolute', zIndex: '10', marginTop: '5px'}}>
             <p>{props.descProject? props.descProject:"Sem descrição"}</p>
             </div>
         </div>

@@ -1,6 +1,5 @@
 .Project {
     display: flex;
-    overflow-y: hidden;
     flex-direction: column;
     height: 95%;
     width: 80%;
@@ -175,6 +174,9 @@
     justify-content: center;
     align-items: center;
 }
+.rs-titulo{
+    font-size: 18px;
+}
 
 
 .repos-linguagem {
@@ -222,6 +224,8 @@
     border: 2px solid #fff;
     font-size: 18PX;
     padding: 0 20px;
+    width: '500px'; 
+    height: '110px';
 }
 
 
@@ -414,4 +418,100 @@ a{
         120px 130px white,
         300px 130px white,
         220px 115px white;
+}
+
+
+
+/*responsive*/
+.responsive-project{
+    display: none;
+    width: 90%;
+    min-height: 470px;
+    background-color: black;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+.r-icones{
+    display: flex;
+    gap: 5px;
+}
+.r-git,.r-linkin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.r-git-c,.r-linkin-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 5px;
+    width: 70px;
+    min-height: 70px;
+}
+
+.r-rs-select{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+#r-select{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .Project{
+        display: none;
+        content-visibility: hidden;
+    }
+    .Irepositorio{
+        width: 300px;
+        padding: 15px 5px;
+        gap: 5px;
+    }
+    .repos-titulo{
+        text-align: left;
+        width: 60%;
+    }
+    .rs-titulo{
+        font-size: 13px;
+        padding: 0;
+    }
+    .repos-linguagem{
+        padding: 0 2px;
+        width: 30%;
+        gap: 0;
+    }
+    .rl{
+        padding: 0;
+    }
+    .rl-lang-text {
+        padding: 0;
+        font-size: 12px;
+
+    }
+    .repos-seta {
+        width: 15%;
+        color: #fff;
+    }
+    .desc{
+        width: 300px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .responsive-project{
+        display: flex;
+        position: relative;
+    }
+
 }

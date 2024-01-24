@@ -74,13 +74,23 @@
 }
 
 
+/*responsive*/
+.reponsive-jorney{
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 90%;
+    min-height: 470px;
+    background-color: black;
+}
+
 
 /* APLICAÇÃO MEDIA QUERIES */
 @media (max-width: 768px) {
-    .Trabalho{
+    .jorney{
         display: none;
     }
-    .Aprendido{
-        display: none;
+    .reponsive-jorney{
+        display: flex;
     }
 }

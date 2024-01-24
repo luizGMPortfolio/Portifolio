@@ -1,5 +1,4 @@
 import './Project.css'
-
 import Title from '../components/Title'
 import Repositorios from "../components/Respositorio";
 import ItemRepositorio from "../components/ItemRepositorio";
@@ -121,10 +120,10 @@ function Project() {
             </a>
             <a className='linkin' href='https://vercel.com/lgm-potifolio' target='_blank'>
               <div className='linkin-c'>
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
               </div>
               <p style={{ fontSize: '13px' }}>
-                Acesse minha pagina do linkedin para conferir meus perfil profissional</p>
+                Acesse minha pagina do linkedin para conferir meu perfil profissional</p>
             </a>
           </motion.div>
 
@@ -194,8 +193,74 @@ function Project() {
             <Title chaves={'}'} />
           </motion.div>
         </motion.div>
-      </motion.div>
 
+        <div className='responsive-project'>
+          <Title title={'Projetos '} chaves={'{'} />
+          <motion.div
+            initial={{ width: 0, opacity: 0 }}
+            animate={{ width: "100%", opacity: 1 }}
+            transition={{ delay: 1.5, duration: 0.5 }}
+          >
+            <p className='resumoProjetos' style={{ fontSize: '12px', color: '#fff' }}>
+              Aqui, você pode conferir meus projetos em desenvolvimento e finalizados.
+              Já trabalhei em projetos de front-end, back-end, full-stack, mobile e para desktop.
+              Além disso, criei um site próprio para minha empresa pessoal. Todos os meus repositórios estão disponíveis <a href="#rs-titulo">AQUI</a>
+            </p>
+          </motion.div>
+
+          <motion.div className='r-icones'
+            initial={{ opacity: 0, translateY: 1000 }}
+            animate={{ translateY: 0, opacity: 1 }}
+            transition={{ delay: 1.8, duration: 0.2 }}
+          >
+            <a className='r-git' href='https://github.com/luizGMPortfolio' target='_blank'>
+              <div className='r-git-c'>
+                <i class="fa-brands fa-github fa-2xl"></i>
+              </div>
+              <p style={{ fontSize: '12px' }}>
+                Acesse meu perfil no GitHub para ver meus codigos ja desenvolvidos</p>
+            </a>
+            <a className='r-linkin' href='https://vercel.com/lgm-potifolio' target='_blank'>
+              <div className='r-linkin-c'>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+              </div>
+              <p style={{ fontSize: '12px' }}>
+                Acesse minha pagina do linkedin para conferir meu perfil profissional</p>
+            </a>
+          </motion.div>
+
+          <div className='r-resp-sup'>
+            <div className='r-rs-titulo' id='rs-titulo'>
+              <Title title={'Repositótio'}></Title>
+            </div>
+            <div className='r-rs-select'>
+              <select name="lenguages" id="r-select" onChange={(e) => filtragem(e.target.value)}>
+                <option value="todas">Todas</option>
+                <option value="HTML">HTML</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+                <option value="Vue">Vue</option>
+                <option value="PHP">PHP</option>
+                <option value="TypeScript">TypeScript</option>
+                <option value="CSS">CSS</option>
+              </select>
+            </div>
+          </div>
+
+          <Repositorios>
+              {repos.map(rep => (
+                <ItemRepositorio
+                  key={rep.id}
+                  url={rep.html_url}
+                  nameProject={rep.name}
+                  descProject={rep.description}
+                  languages={rep.language ? rep.language : "não deifinida"}
+                />))}
+            </Repositorios>
+
+          <Title chaves={'}'} />
+        </div>
+      </motion.div>
     </>
   )
 }
