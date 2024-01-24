@@ -135,9 +135,9 @@ function Skils() {
                         <i class="fa-solid fa-square fa-lg"></i>
                         <i class="fa-solid fa-square fa-lg"></i>
                         <i class="fa-solid fa-square fa-lg"></i>
-
+                        <i class="fa-solid fa-square fa-lg"></i>
                       </div>
-                      <h5 className='num'>6.0</h5>
+                      <h5 className='num'>7.0</h5>
                     </div>
                   </motion.li>
 
@@ -248,7 +248,9 @@ function Skils() {
                   <li><h5>Criativo</h5></li>
                 </ul>
               </motion.div>
+
             </motion.div>
+
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -278,9 +280,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>9.0</h5>
                   </div>
                 </li>
                 <li>
@@ -297,11 +298,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>7.0</h5>
                   </div>
                 </li>
                 <li>
@@ -320,9 +318,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>9.0</h5>
                   </div>
                 </li>
                 <li>
@@ -336,14 +333,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>4.0</h5>
                   </div>
                 </li>
                 <li>
@@ -360,11 +351,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>7.0</h5>
                   </div>
                 </li>
                 <li>
@@ -379,13 +367,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>5.0</h5>
                   </div>
                 </li>
                 <li>
@@ -402,11 +385,8 @@ function Skils() {
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                     </div>
-                    <h5 className='num'>6.0</h5>
+                    <h5 className='num'>7.0</h5>
                   </div>
                 </li>
                 <li>
@@ -416,10 +396,6 @@ function Skils() {
                   <div className='r-c-l-porcent'>
                     <h5>C++</h5>
                     <div className='porcentagem'>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
-                      <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>
                       <i class="fa-solid fa-square fa-xs"></i>

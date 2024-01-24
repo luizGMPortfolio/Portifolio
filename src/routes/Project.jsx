@@ -74,7 +74,7 @@ function Project() {
 
   return (
     <>
-      <motion.div className='slides p'
+      <motion.div className='slides'
         initial={{ opacity: 0, translateX: 1000 }}
         animate={{ opacity: 1, translateX: 0 }}
         exit={{ opacity: 0, translateX: -1000 }}
@@ -194,7 +194,11 @@ function Project() {
           </motion.div>
         </motion.div>
 
-        <div className='responsive-project'>
+        <motion.div className='responsive-project'
+          initial={{scale: 0.2, translateY: -500}}
+          animate={{ scale: 1, translateY: 0}}
+          transition={{ delay: 1 }}
+        >
           <Title title={'Projetos '} chaves={'{'} />
           <div
             initial={{ width: 0, opacity: 0 }}
@@ -248,18 +252,18 @@ function Project() {
           </div>
 
           <Repositorios>
-              {repos.map(rep => (
-                <ItemRepositorio
-                  key={rep.id}
-                  url={rep.html_url}
-                  nameProject={rep.name}
-                  descProject={rep.description}
-                  languages={rep.language ? rep.language : "não deifinida"}
-                />))}
-            </Repositorios>
+            {repos.map(rep => (
+              <ItemRepositorio
+                key={rep.id}
+                url={rep.html_url}
+                nameProject={rep.name}
+                descProject={rep.description}
+                languages={rep.language ? rep.language : "não deifinida"}
+              />))}
+          </Repositorios>
 
           <Title chaves={'}'} />
-        </div>
+        </motion.div>
       </motion.div>
     </>
   )

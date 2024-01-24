@@ -63,17 +63,21 @@ const About = () => {
                     </motion.div>
 
                     <div className='container-responsive'>
-                        <div className='r-container-img'>
+                        <motion.div className='r-container-img'
+                        initial={{opacity: 0}}
+                        animate={{opacity: 1}}
+                        transition={{delay: 1.5}}
+                        >
                             <div>
                                 <img src={img} alt="" />
                             </div>
-                        </div>
+                        </motion.div>
                         <div className='r-container-text'>
                             <ul>
                                 <li><span>Nome:</span> <p>Luiz Gustavo;</p></li>
                                 <li><span>Nacimento:</span> <p>04/12/2000;</p></li>
                                 <li><span>Estudo:</span> <p>Ciencia da computação;</p></li>
-                                <li><span>Area:</span> <p>Desenvolver Front-end;</p></li>
+                                <li><span>Área:</span> <p>Desenvolver Front-end;</p></li>
                             </ul>
                         </div>
                     </div>

@@ -265,7 +265,11 @@ function Jorney() {
             <Title chaves={'}'} color={'#696383'} />
           </motion.div>
         </motion.div>
-        <div className='reponsive-jorney'>
+        <motion.div className='reponsive-jorney'
+        initial={{scale: 0.2, translateY: -100}}
+        animate={{scale: 1, translateY: 0}}
+        transition={{delay: 1}}
+        >
           <div className='r-Estudos'>
             <Title title={'Estudos()'} chaves={'{'} color={'#696383'} />
 
@@ -368,7 +372,7 @@ function Jorney() {
             </div>
             <Title chaves={'}'} color={'#696383'} />
           </div>
-        </div>
+        </motion.div>
       </motion.div>
     </>
   )
